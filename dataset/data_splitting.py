@@ -8,7 +8,7 @@ test_dir = "dataset/test"
 
 classes = ["ambulance", "no_ambulance"]
 
-split_ratio = 0.8  # 80% train, 20% test
+split_ratio = 0.8  
 
 for cls in classes:
     files = os.listdir(os.path.join(source_dir, cls))
